@@ -14,6 +14,7 @@ PROBABLY unique for this use, but not guaranteed so there is only a
 string compare (is this actually my word) after the CRCs match.
 
 The brief description of the alogrithm is:
+...
    For each word
       crc32
       word goes to crc32 % 1000 element
@@ -35,7 +36,8 @@ The brief description of the alogrithm is:
    require multiple string checks of actual word only
    very RARELY.
 
-#### End brief alogrithm description
+End brief alogrithm description
+...
 
 
 The synonyms are stored with the word.  Variants of the list are created
