@@ -1,0 +1,112 @@
+AK, Alaska, Juneau
+AL, Alabama, Montgomery, Ala.
+AR, Arkansas, Little Rock, Ark.
+AS, American Samoa, Pago Pago
+AZ, Arizona, Phoenix, Ariz.
+CA, California, Sacramento, Calif.
+CO, Colorado, Denver, Colo.
+CT, Connecticut, Hartford, Conn.
+DC, District of Columbia, Washington
+DE, Delaware, Dover, Del.
+FL, Florida, Tallahassee, Fla.
+FM, Federated States of Micronesia, Palikir
+GA, Georgia, Atlanta, Ga.
+GU, Guam, Hagatna (Agana)
+HI, Hawaii, Honolulu
+IA, Iowa, Des Moines
+ID, Idaho, Boise
+IL, Illinois, Springfield, Ill.
+IN, Indiana, Indianapolis, Ind.
+KS, Kansas, Topeka, Kan.
+KY, Kentucky, Frankfort, Ky.
+LA, Louisiana, Baton Rouge, La.
+MA, Massachusetts, Boston, Mass.
+ME, Maine, Augusta
+MD, Maryland, Annapolis, Md.
+MH, Marshall Islands, Majuro
+MI, Michigan, Lansing, Mich.
+MN, Minnesota, St. Paul, Minn.
+MO, Missouri, Jefferson City, Mo.
+MP, Northern Mariana Islands, Saipan
+MS, Mississippi, Jackson, Miss.
+MT, Montana, Helena, Mont.
+NC, North Carolina, Raleigh, N.C.
+ND, North Dakota, Bismarck, N.D.
+NE, Nebraska, Lincoln, Neb.
+NH, New Hampshire, Concord, N.H.
+NJ, New Jersey, Trenton, N.J.
+NM, New Mexico, Santa Fe, N.M.
+NV, Nevada, Carson City, Nev.
+NY, New York, Albany, N.Y
+OH, Ohio, Columbus
+OK, Oklahoma, Oklahoma City, Okla.
+OR, Oregon, Salem, Ore.
+PA, Pennsylvania, Harrisburg, Pa.
+PR, Puerto Rico, San Juan
+PW, Palau, Koror
+RI, Rhode Island, Providence, R.I.
+SC, South Carolina, Columbia, S.C.
+SD, South Dakota, Pierre, S.D.
+TN, Tennessee, Nashville, Tenn.
+TX, Texas, Austin
+UT, Utah, Salt Lake City
+VI, Virgin Islands, St. Thomas
+VT, Vermont, Montpelier, Vt.
+VA, Virginia, Richmond, Va.
+WA, Washington, Olympia, Wash.
+WI, Wisconsin, Madison, Wis.
+WV, West Virginia, Charleston, W.Va.
+WY, Wyoming, Cheyenne, Wyo.
+AA, Armed Forces Americas
+AE, Armed Forces Africa
+AE, Armed Forces Canada
+AE, Armed Forces Europe
+AE, Armed Forces Middle East
+AP, Armed Forces Pacific
+AB, Alberta, Edmonton
+BC, British Columbia, Victoria
+MB, Manitoba, Winnipeg
+NB, New Brunswick, Fredericton
+NL, Newfoundland and Labrador, St. John's
+NT, Northwest Territories, Yellowknife
+NS, Nova Scotia, Halifax
+NU, Nunavut, Iqaluit
+ON, Ontario, Toronto
+PE, Prince Edward Island, Charlottetown
+QC, Québec, Québec
+SK, Saskatchewan, Regina
+YT, Yukon, Whitehorse
+AG, Aguascalientes, Aguascalientes
+BC, Baja California Norte, Mexicali
+BS, Baja California Sur, La Paz
+CH, Chihuahua, Chihuahua
+CL, Colima, Colima
+CM, Campeche, Campeche
+CO, Coahuila, Saltillo
+CS, Chiapas, Tuxtla Gutiérrez
+DF, Distrito Federal
+DG, Durango, Durango
+GR, Guerrero, Chilpancingo de los Bravo
+GT, Guanajuato, Guanajuato
+HG, Hidalgo, Pachuca de Soto
+JA, Jalisco, Guadalajara
+MI, Michoacan, Morelia
+MO, Morelos, Cuernavaca
+NA, Nayarit, Tepic
+NL, Nuevo Leon, Monterrey
+OA, Oaxaca, Oaxaca de Juárez
+PU, Puebla, Puebla de Zaragoza
+QR, Quintana Roo, Chetumal
+QT, Queretaro, Santiago de Querétaro
+SI, Sinaloa, Culiacán
+SL, San Luis Potosi, San Luis Potosi
+SO, Sonora, Hermosillo
+TB, Tabasco, Villahermosa
+TL, Tlaxcala, Tlaxcala de Xicoténcatl
+TM, Tamaulipas, Ciudad Victoria
+VE, Veracruz, Xalapa
+YU, Yucatan, Mérida
+ZA, Zacatecas, Zacatecas
+color, colour => red, orange, yellow, green, blue, indigo, violet
+car => coupe, sedan, sub, convertible, station wagon, van, mini van
+hair, fuzz, fur, whiskers => fur

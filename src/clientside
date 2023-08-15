@@ -1,0 +1,32 @@
+#!/bin/bash 
+
+x=0
+ziggy="linux-perf6.bigdatalab.ibm.com"
+while [ 1 ]; do
+   #./test linux-perf6.bigdatalab.ibm.com 8080 "text:(color,blue,red,brown,purple,black,white,horton)"
+   ./test $ziggy 8080 "synonyms;text:(color,blue,red,brown,purple,black,white,horton)"
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+   ./test $ziggy 8080 'synonyms;text:("United States of America","High German",red,"United Kingdom",purple,black,white,"human activity")'
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+   ./test $ziggy 8080 'donotusethis;text:("United States of America","High German",red,"United Kingdom",purple,black,white,"human activity")'
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+   ./test $ziggy 8080 'acronym;text:(AZ, MA, FL, Hawaii)'
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+   ./test $ziggy 8080 'oneway;text:("United States of America","High German",color,"United Kingdom",purple,black,white,"human activity")'
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+   ./test $ziggy 8080 'oneway;text:(AZ, MA, FL, car)'
+   x=`expr $x + 1`
+   echo "count:  $x"
+   #sleep 5
+done
+
