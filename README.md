@@ -13,6 +13,31 @@ use the CRC to find the word.  Note:  CRC's are not unique.  They are
 PROBABLY unique for this use, but not guaranteed so there is only a
 string compare (is this actually my word) after the CRCs match.
 
+The brief description of the alogrithm is:
+   For each word
+      crc32
+      word goes to crc32 % 1000 element
+      add the word in order to a list (switch to balanced tree later)
+      add synonyms as array to word node
+
+   Search
+   Find a word:
+      crc32 of word
+      go to crc32 % 1000 elem
+      search list for crc32 in each node
+      verify word by doing actual word compare
+      if word not right, continue with search
+
+   Normalize search work around case.  Make all lower case.
+
+
+   crc32 is NOT unique.  But should be unique enough to
+   require multiple string checks of actual word only
+   very RARELY.
+
+#### End brief alogrithm description
+
+
 The synonyms are stored with the word.  Variants of the list are created
 at the same time.  So for the following example:
 ```
