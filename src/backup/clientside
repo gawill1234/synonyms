@@ -2,7 +2,7 @@
 
 x=0
 while [ 1 ]; do
-   #./test linux-perf6.bigdatalab.ibm.com 8080 "text:(color,blue,red,brown,purple,black,white,horton)"
+   #./test <some domaind> 8080 "text:(color,blue,red,brown,purple,black,white,horton)"
    ./test localhost 8080 "text:(color,blue,red,brown,purple,black,white,horton)"
    x=`expr $x + 1`
    echo "count:  $x"
