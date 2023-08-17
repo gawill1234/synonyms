@@ -81,18 +81,22 @@ What is already done:
 
 Building:
 ```
-   Build the service:
    gcc -c <each of the c files>
-   gcc -o <whatever> *.o -lcurl
 
    Build the client:
    gcc -o test suckit.o utils.o
+
+   rm suckit.o
+
+   Build the service:
+   gcc -o <whatever> *.o -lcurl
 ```
 
 Running:
 ```
    Run client:
    test http://blah.blah.blah 8080 "query"
+   (you can use localhost and run both parts locally)
 
    Run server:
    <whatever>
