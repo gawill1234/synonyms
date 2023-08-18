@@ -20,7 +20,7 @@ clnt:	$(OBJ);
 srvr:	$(OBJ);
 	gcc -o srvr crc32l.o getsynfiles.o sockeye.o words.o data.o parse.o readit.o streq.o utils.o -lcurl
 
-crd32l.o:	crd32l.c
+crc32l.o:	crc32l.c
 getsynfiles.o:	getsynfiles.c
 sockeye.o:	sockeye.c
 suckit.o:	suckit.c
