@@ -67,7 +67,7 @@ jobs:
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
-      run: make all -f ./src/Makefile
+      run: cd src; make all -f Makefile
       shell: bash
 
     # Command-line programs to run using the OS shell.
