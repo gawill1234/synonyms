@@ -110,7 +110,7 @@ dictionary.  I would appreciate a larger list of synonyms.
 
 With those synonyms loaded the program reaches max size of about 7.5M where 
 it remains (added words in dictionary will make it bigger).  Run times for 
-the stuff that is here:
+the stuff that is here(srvr side):
 ```
 gen CRC elapsed:  15.974045 microseconds
 data load elapsed:  143684.859375 microseconds
@@ -144,6 +144,24 @@ QUERY STRING:  text:abating,author:(kitty),furr:April,country:Italy
 NEW QUERY:  text:(abating|abate),author:((kitty|cat|feline|pussy cat|kitties)),furr:(April|Apr|Aprils),country:(Italy|Italian Republic|Italia|Italian Republic)
 #######################
 elapsed:  56.982040 microseconds
+```
+
+Round trip timings:
+```
+text:((AZ|Arizona|Phoenix|Ariz.), (MA|Massachusetts|Boston|Mass.), (FL|Financial leverage|Florida|Tallahassee|Fla.), (Hawaii|HI|Honolulu))
+elapsed:  156.879425 microseconds
+count:  49978
+text:("United States of America","High German",(color|red|orange|yellow|green|blue|indigo|violet),"United Kingdom",purple,black,white,"human activity")
+elapsed:  105.142593 microseconds
+count:  49979
+text:((AZ|Arizona|Phoenix|Ariz.), (MA|Massachusetts|Boston|Mass.), (FL|Florida|Tallahassee|Fla.), (car|coupe|sedan|sub|convertible|station wagon|van|mini van))
+elapsed:  129.938126 microseconds
+count:  49980
+text:((color|colour|colour|coloring|colouring|coloring material|colouring material|colour|colour|colored|coloring|colors),(blue|bluish|blueish|blued|blueing|bluer|blues|bluest|bluing),(red|reddish|ruddy|blood-red|carmine|cerise|cherry|cherry-red|crimson|ruby|ruby-red|scarlet|redder|reddest|reds),(brown|brownish|chocolate-brown|dark-brown|browned|browner|brownest|browning|browns),(purple|imperial|majestic|regal|royal|violet|purplish|purpler|purples|purplest),(black|dark|blacked|blacker|blackest|blacking|blacks),(white|whiter|whites|whitest),horton)
+elapsed:  189.065933 microseconds
+count:  49981
+text:("(United States of America|United States|the States|US|U.S.|USA|U.S.A.|United States|US|U.S.|U.S.A.|U.S. of A.|States)","(High German|German|German language)",(red|reddish|ruddy|blood-red|carmine|cerise|cherry|cherry-red|crimson|ruby|ruby-red|scarlet|redder|reddest|reds),"(United Kingdom|UK|U.K.|Britain|United Kingdom of Great Britain and Northern Ireland|Great Britain|United Kingdom of Great Britain and Northern Ireland|UK)",(purple|imperial|majestic|regal|royal|violet|purplish|purpler|purples|purplest),(black|dark|blacked|blacker|blackest|blacking|blacks),(white|whiter|whites|whitest),"(human activity|act|deed|human action)")
+elapsed:  194.072723 microseconds
 ```
 
 The times are in microseconds which is correct.  The dictionary load takes the
