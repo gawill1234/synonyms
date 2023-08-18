@@ -1,8 +1,9 @@
 #!/bin/bash 
 
 x=0
-ziggy="<some domain>"
-while [ 1 ]; do
+ziggy="localhost"
+zz=`date`
+while [ $x -le 50000 ]; do
    #./test $ziggy 8080 "text:(color,blue,red,brown,purple,black,white,horton)"
    ./test $ziggy 8080 "synonyms;text:(color,blue,red,brown,purple,black,white,horton)"
    x=`expr $x + 1`
@@ -29,4 +30,5 @@ while [ 1 ]; do
    echo "count:  $x"
    #sleep 5
 done
-
+echo "$zz"
+date
