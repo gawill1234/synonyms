@@ -3,9 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <time.h>
-#ifdef __APPLE__
 #include <ctype.h>
-#endif
 
 
 //
