@@ -81,25 +81,27 @@ What is already done:
 
 Building:
 ```
-   gcc -c <each of the c files>
+   make all
 
-   Build the client:
-   gcc -o test suckit.o utils.o
-
-   rm suckit.o
-
-   Build the service:
-   gcc -o <whatever> *.o -lcurl
+   will create two executables.  srvr and test.
+   srvr is the server.
+   test is the client
 ```
 
 Running:
 ```
+   Run server:
+   srvr
+
    Run client:
    test http://blah.blah.blah 8080 "query"
    (you can use localhost and run both parts locally)
-
-   Run server:
-   <whatever>
+   or you can run the shell script named clientside.
+   This will run 50000(ish) queries.
+   Run srvr and test in different windows if you want to
+   see timings appropriate to each half.
+   the srvr side show how long it took to do the synonym replace.
+   the test/clientside show the end to end (there and back) throughput.
 ```
 
 Currently there are only built in cases and a single synonyms file.  The 
