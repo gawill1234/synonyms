@@ -57,6 +57,12 @@ Things to do:
    add in levenschtein for spelling
    make the separation for lemmatization (easy)
    Set it up as an actual service (communication/sockets, etc).
+
+   I had, at one time, thought of multi-threading the server.  If that
+   happens it will be a long time from now.  It was determined that the
+   server is quite capable of keeping up with anything that is fed to it.
+   I have run multiple (i.e., MANY) clients against a single server and
+   it was able to cope with the load very well.
 ```
 
 What it finally should do:
