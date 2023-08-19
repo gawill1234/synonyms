@@ -52,6 +52,11 @@ at the same time.  So for the following example:
    word = b, synonyms = a, c, d
    word = c, synonyms = b, a, d
    word = d, synonyms = b, c, a
+
+   You can create a one way synonym.  It will only do this:
+   a => b, c, d (word and synonyms)
+   the entry created is only:
+   word = a, synonyms = b, c, d
 ```
 
 Things to do:
