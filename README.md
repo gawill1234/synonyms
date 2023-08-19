@@ -2,6 +2,9 @@ This is a prototype for a query expansion/synonym service.
 It is based on the feature that is part of elastic search, but it
 is MUCH faster.
 
+Contact info: gawill1234@gmail.com
+Put "synonyms" in the subject (or I'll probably miss it).
+
 The dictionary is currently 1000 element hash that points at the various
 lists of words.
 
